@@ -1,10 +1,10 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import AppHeader from './components/navbar';
+import AppHeader from '../templates/Base/Navbar';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import ForumAccordion from './components/accordion';
-import CommentImage from './components/images/userdefault.jpg'
+import ForumAccordion from '../templates/Base/Accordion';
+import CommentImage from '..//templates/Base/images/userdefault.jpg'
 
 export default function ForumComment() {
   return (
@@ -26,7 +26,7 @@ export default function ForumComment() {
         <Form.Text className="text-muted">
         Be respectful to everyone
         </Form.Text>
-      </Form.Group>
+      </Form.Group>x
       <Button variant="primary" type="submit">
         Submit
       </Button>

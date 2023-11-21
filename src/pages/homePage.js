@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import AppHeader from './components/navbar';
-import HomeCarousel from './components/carousel';
-import SectionCard from './components/homepageCards';
+import AppHeader from '../templates/Base/Navbar';
+import HomeCarousel from '../templates/Base/Carousel';
+import SectionCard from '../templates/Base/HomepageCards';
 
 export default function Home() {
   return (

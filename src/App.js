@@ -1,9 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
-import Home from './homepage';
-import DiscussionForum from './forum';
-import ForumComment from './forumcomment';
+import Home from './pages/homePage';
+import DiscussionForum from './pages/forum';
+import ForumComment from './pages/forumComment';
 
 
 function App() {

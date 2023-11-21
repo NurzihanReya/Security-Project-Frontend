@@ -1,10 +1,10 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import AppHeader from './components/navbar';
+import AppHeader from '../templates/Base/Navbar';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import ForumAccordion from './components/accordion';
-import ProfileImageDemo from './components/images/ques3.png'
+import ForumAccordion from '../templates/Base/Accordion';
+import ProfileImageDemo from '../templates/Base/images/ques3.png'
 
 export default function DiscussionForum() {
   return (
